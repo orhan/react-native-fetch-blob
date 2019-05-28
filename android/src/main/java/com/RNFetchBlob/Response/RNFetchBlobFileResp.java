@@ -1,24 +1,26 @@
 package com.RNFetchBlob.Response;
 
+import android.util.Log;
+
 import com.RNFetchBlob.RNFetchBlobConst;
 import com.RNFetchBlob.RNFetchBlobProgressConfig;
 import com.RNFetchBlob.RNFetchBlobReq;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
+import com.facebook.react.modules.core.DeviceEventManagerModule;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import expolib_v1.okhttp3.MediaType;
-import expolib_v1.okhttp3.ResponseBody;
+
+import okhttp3.MediaType;
+import okhttp3.ResponseBody;
 import okio.Buffer;
 import okio.BufferedSource;
 import okio.Okio;
 import okio.Source;
 import okio.Timeout;
-
-
-
 
 /**
  * Created by wkh237 on 2016/7/11.
