@@ -6,18 +6,17 @@ import com.RNFetchBlob.RNFetchBlobReq;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.WritableMap;
-import com.facebook.react.modules.core.DeviceEventManagerModule;
-
 import java.io.IOException;
 import java.nio.charset.Charset;
-
-import okhttp3.MediaType;
-import okhttp3.ResponseBody;
+import expolib_v1.okhttp3.MediaType;
+import expolib_v1.okhttp3.ResponseBody;
 import okio.Buffer;
 import okio.BufferedSource;
 import okio.Okio;
 import okio.Source;
 import okio.Timeout;
+
+
 
 /**
  * Created by wkh237 on 2016/7/11.
